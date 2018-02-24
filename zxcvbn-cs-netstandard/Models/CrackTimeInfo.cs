@@ -57,7 +57,7 @@ namespace Zxcvbn_cs.Models
         /// </summary>
         public int MillionYears { get; }
 
-        public CrackTimeInfo(double seconds) : this()
+        internal CrackTimeInfo(double seconds) : this()
         {
             // Default durations
             long

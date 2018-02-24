@@ -8,7 +8,7 @@ namespace Zxcvbn_cs.Models
     /// </summary>
     public sealed class Result
     {
-        public Result(double entropy, long calcTime, double crackTime, int score, IList<Match> matches, string password)
+        internal Result(double entropy, long calcTime, double crackTime, int score, IList<Match> matches, string password)
         {
             Entropy = entropy;
             CalcTime = calcTime;

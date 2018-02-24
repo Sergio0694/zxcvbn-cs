@@ -262,6 +262,7 @@ namespace Zxcvbn_cs.Matchers
             public override string ToString() => "{" + X + ", " + Y + "}";
         }
 
+        /// <inheritdoc/>
         public void Dispose()
         {
             _SpatialGraphs?.Clear();
