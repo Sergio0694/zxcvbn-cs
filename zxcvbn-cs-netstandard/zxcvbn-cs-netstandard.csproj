@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Initial .NET Standard 2.0 release</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/Sergio0694/zxcvbn-cs</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/Sergio0694/zxcvbn-cs/blob/master/LICENSE</PackageLicenseUrl>
+    <Authors>Sergio Pedri</Authors>
+    <Company>Sergio Pedri</Company>
+    <Description>.NET Standard 2.0 port of Michael Ford/Dan Wheeler/DropBox's Zxcvbn js password strength estimation library</Description>
+    <Copyright>Copyright (c) 2018</Copyright>
+    <PackageTags>zxcvbn password dropbox strength netstandard</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
